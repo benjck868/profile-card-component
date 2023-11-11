@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100vh;
+  
+  background-position:
+    top -250px left -250px,
+    bottom -250px right -250px;
+  
+  background-size: 500px;
+  background-repeat: no-repeat;
+  
+  background-image:
+    url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  
+}
